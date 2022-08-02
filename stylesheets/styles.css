@@ -1,0 +1,63 @@
+body {
+  font-family: "Exo", sans-serif;
+  color: white;
+}
+
+.context {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.context h2 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+button {
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background-color: rgba(32, 47, 108, 0.2);
+  border-color: rgba(32, 47, 108, 0.2);
+  border-radius: 10px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 492px;
+}
+
+.stats {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.time {
+  text-align: center;
+  width: 150px;
+}

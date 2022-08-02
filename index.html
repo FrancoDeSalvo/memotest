@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- LINK CSS-->
+  <link rel="stylesheet" href="./stylesheets/styles.css" />
+  <link rel="stylesheet" href="./stylesheets/background.css" />
+  <link rel="icon" href="./images/ico/brain.png">
+  <title>Memotest</title>
+</head>
+
+<body>
+  <main>
+    <div class="context">
+      <section class="board">
+        <h2>JUEGO DE MEMORIA</h2>
+
+        <table>
+          <tr>
+            <td><button id="0" onclick="flip(0)"></button></td>
+            <td><button id="1" onclick="flip(1)"></button></td>
+            <td><button id="2" onclick="flip(2)"></button></td>
+            <td><button id="3" onclick="flip(3)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="4" onclick="flip(4)"></button></td>
+            <td><button id="5" onclick="flip(5)"></button></td>
+            <td><button id="6" onclick="flip(6)"></button></td>
+            <td><button id="7" onclick="flip(7)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="8" onclick="flip(8)"></button></td>
+            <td><button id="9" onclick="flip(9)"></button></td>
+            <td><button id="10" onclick="flip(10)"></button></td>
+            <td><button id="11" onclick="flip(11)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="12" onclick="flip(12)"></button></td>
+            <td><button id="13" onclick="flip(13)"></button></td>
+            <td><button id="14" onclick="flip(14)"></button></td>
+            <td><button id="15" onclick="flip(15)"></button></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="results">
+
+        <h3 id="success" class="stats">Aciertos: 0</h3>
+        <h3 id="timer" class="stats time">Tiempo: 45 segundos</h3>
+        <h3 id="moves" class="stats">Movimientos: 0</h3>
+
+      </section>
+    </div>
+  </main>
+
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

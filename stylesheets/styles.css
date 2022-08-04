@@ -3,6 +3,7 @@ body {
   color: white;
 }
 
+
 .context {
   z-index: 1;
   width: 100%;
@@ -60,4 +61,11 @@ button:disabled {
 .time {
   text-align: center;
   width: 150px;
+}
+
+
+
+img{
+  width: 80%;
+  padding-top: 10px;
 }
